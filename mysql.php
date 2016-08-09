@@ -4,7 +4,7 @@ class sql{
 		if(mysql_connect('localhost','root','wildpen')!=FALSE){
 		mysql_select_db('mesboard');
 		mysql_query("set names 'utf8'");
-		
+
 		return TRUE;
 		}	
 		else {
